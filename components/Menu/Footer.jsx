@@ -145,7 +145,7 @@ export default function Footer() {
             </div>
   
             {/* Resources */}
-            <div className="col-span-2">
+            <div className="col-span-3">
               <h4 className="text-[20px] font-semibold text-white leading-[138%] mb-[30px] ">
                 Resources
               </h4> 
