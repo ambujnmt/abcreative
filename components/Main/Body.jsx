@@ -5,7 +5,10 @@ import OurWork from './HomeSections/OurWork';
 import WorksFast from './HomeSections/WorksFast';
 import SimpleStep from './HomeSections/SimpleStep';
 import ProjectType from './HomeSections/ProjectType';
-import CreativeSolution from './HomeSections/CreativeSolution';
+import CreativeSolution from './HomeSections/CreativeSolution'; 
+import HomeTestimonial from './HomeSections/HomeTestimonial';
+import HomeCta from './HomeSections/HomeCta';
+import HomeForm from './HomeSections/HomeForm';
 
 export default function Body() {
 
@@ -18,7 +21,10 @@ export default function Body() {
       <WorksFast />
       <SimpleStep />
       <ProjectType />
-      <CreativeSolution />
+      <CreativeSolution /> 
+      <HomeTestimonial />
+      <HomeCta />
+      <HomeForm />
     </>
   );
 }
