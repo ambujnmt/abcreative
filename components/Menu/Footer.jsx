@@ -71,7 +71,7 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/animation"
                   >
                     3D Animation
                   </Link>
@@ -79,7 +79,7 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/modeling"
                   >
                     3D Modeling
                   </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/rendering"
                   >
                     3D Rendering
                   </Link>
@@ -95,7 +95,7 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/visualization"
                   >
                     Visualization
                   </Link>
@@ -112,7 +112,7 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/company"
                   >
                     About Us
                   </Link>
@@ -199,8 +199,8 @@ export default function Footer() {
         <div className="mt-[160px] border-t border-[#8b8b8b]/40 py-[18px]">
           <div className="container mx-auto px-4">
             <div className="flex justify-center items-center gap-4">
-              <h5 className="flex text-white font-extralight items-center text-[20px] mb-0">
-                <FaRegCopyright /> &nbsp; 2024ABCreative. All right reserved.
+              <h5 className="flex text-white font-extralight items-center text-[17px] mb-0">
+                <FaRegCopyright /> &nbsp; 2026 abcreative. All right reserved.
               </h5> 
             </div>
           </div>

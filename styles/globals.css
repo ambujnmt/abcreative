@@ -313,6 +313,13 @@ button{
   font-family:"Inter", sans-serif ;
 }
 
+li {
+  font-family: Inter, sans-serif;
+}
+
+Link {
+  font-family: Inter, sans-serif;
+}
 
 :root{
   --primary-color: #2EAEBF; 
