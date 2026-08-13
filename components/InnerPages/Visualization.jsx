@@ -408,7 +408,7 @@ export default function Visualization() {
                             <div className="group relative min-h-[360px] rounded-[28px] overflow-hidden bg-[#102536]">
                                 <Link href="/rendering">
                                     <img
-                                        src="/assets/img/rendering.jpg"
+                                        src="/assets/img/Rendering.jpg"
                                         alt="Rendering"
                                         className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition duration-700"
                                     />

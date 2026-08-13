@@ -368,7 +368,7 @@ export default function Animation() {
                             <div className="group relative min-h-[360px] rounded-[28px] overflow-hidden bg-[#102536]">
                                 <Link href="/modeling">
                                     <img
-                                        src="/assets/img/modeling.jpg"
+                                        src="/assets/img/Modeling.jpg"
                                         alt="Modeling"
                                         className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition duration-700"
                                     />
@@ -390,7 +390,7 @@ export default function Animation() {
                             <div className="group relative min-h-[360px] rounded-[28px] overflow-hidden bg-[#102536]">
                                 <Link href="/rendering">
                                     <img
-                                        src="/assets/img/rendering.jpg"
+                                        src="/assets/img/Rendering.jpg"
                                         alt="Rendering"
                                         className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition duration-700"
                                     />
@@ -412,7 +412,7 @@ export default function Animation() {
                             <div className="group relative min-h-[360px] rounded-[28px] overflow-hidden bg-[#102536]">
                                 <Link href="/visualization">
                                     <img
-                                        src="/assets/img/visualization.jpg"
+                                        src="/assets/img/Visualization.jpg"
                                         alt="Visualization"
                                         className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition duration-700"
                                     />
