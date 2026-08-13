@@ -28,7 +28,7 @@ export default function Header() {
                 <ul className="flex items-center">
                   <li className="mx-[20px]">
                     <Link
-                      href="#"
+                      href="/"
                       className="text-[20px] leading-[100%] font-medium hover:text-[var(--primary-color)] text-[#fff]"
                     >
                       Home
@@ -37,7 +37,7 @@ export default function Header() {
  
                   <li className="mx-[20px] relative group">
                     <Link
-                      href="#"
+                      href="/company"
                       className="text-[20px] leading-[100%] font-medium hover:text-[var(--primary-color)] text-[#fff]"
                     >
                       Company 
