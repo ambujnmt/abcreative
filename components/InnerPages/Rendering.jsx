@@ -330,7 +330,7 @@ export default function Rendering() {
                             <div className="group relative min-h-[360px] rounded-[28px] overflow-hidden bg-[#102536]">
                                 <Link href="/animation">
                                     <img
-                                        src="/assets/img/animation.jpg"
+                                        src="/assets/img/Animation.jpg"
                                         alt="animation"
                                         className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition duration-700"
                                     />
@@ -372,7 +372,7 @@ export default function Rendering() {
                             <div className="group relative min-h-[360px] rounded-[28px] overflow-hidden bg-[#102536]">
                                 <Link href="/visualization">
                                     <img
-                                        src="/assets/img/visualization.jpg"
+                                        src="/assets/img/Visualization.jpg"
                                         alt="Visualization"
                                         className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition duration-700"
                                     />
