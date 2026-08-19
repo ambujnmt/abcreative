@@ -3,7 +3,7 @@ import React from 'react';
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 
-export default function WhatWeDo() {
+export default function WhatWeDoSec() {
     return (
         <>
             <div className="container my-[70px]">
@@ -11,14 +11,14 @@ export default function WhatWeDo() {
                     <div className="col-span-12 flex justify-center">
                         <div className="max-w-3xl text-center">
                             <h6 className="block m-auto w-max text-[18px] leading-[100%] text-[var(--primary-color)] relative before:content-[''] before:absolute before:w-[40px] before:h-[4px] before:bg-[var(--primary-color)] before:top-[7px] before:left-[-50px] after:content-[''] after:absolute after:bg-[var(--primary-color)] after:w-[40px] after:h-[4px] after:top-[7px] after:right-[-50px] uppercase mb-4">What We Do</h6>
-                            <h3 className="font-semibold text-[55px] leading-[100%] text-[var(--text-color1)] mb-5">3D Viusalization</h3>
+                            <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[100%] leading-[45px] text-[var(--text-color1)] mb-5">3D Viusalization</h3>
                             <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">Visualizing for our clients, we use a mix of skills, different for each project. Each visualization project compromises of one of more of the following subdomains:</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="grid grid-cols-12 gap-6 mt-[60px]">
-                    <div className="col-span-3 group">
+                    <div className="lg:col-span-3 col-span-12 group">
                         <div className="border-2 border-[var(--text-color2)] rounded-xl overflow-hidden h-full">
                             <img
                                 src="/assets/img/Animation.jpg"
@@ -42,7 +42,7 @@ export default function WhatWeDo() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-3 group">
+                    <div className="lg:col-span-3 col-span-12 group">
                         <div className="border-2 border-[var(--text-color2)] rounded-xl overflow-hidden h-full">
                             <img
                                 src="/assets/img/Modeling.jpg"
@@ -66,7 +66,7 @@ export default function WhatWeDo() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-3 group">
+                    <div className="lg:col-span-3 col-span-12 group">
                         <div className="border-2 border-[var(--text-color2)] rounded-xl overflow-hidden h-full">
                             <img
                                 src="/assets/img/Rendering.jpg"
@@ -90,7 +90,7 @@ export default function WhatWeDo() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-3 group">
+                    <div className="lg:col-span-3 col-span-12 group">
                         <div className="border-2 border-[var(--text-color2)] rounded-xl overflow-hidden h-full">
                             <img
                                 src="/assets/img/Visualization.jpg"

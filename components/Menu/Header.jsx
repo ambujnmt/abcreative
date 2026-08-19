@@ -17,7 +17,7 @@ export default function Header() {
                 <img
                   src="/assets/img/logo.png"
                   alt="Logo"
-                  className="h-auto max-w-[300px]"
+                  className="h-auto lg:max-w-[300px] max-w-[195px]"
                 />
               </Link>
             </div>
@@ -46,7 +46,7 @@ export default function Header() {
  
                   <li className="mx-[20px]">
                     <Link
-                      href="#"
+                      href="/whatWeDo"
                       className="text-[20px] leading-[100%] font-medium hover:text-[var(--primary-color)] text-[#fff]">
                       What we do
                     </Link>
@@ -54,7 +54,7 @@ export default function Header() {
  
                   <li className="mx-[20px]">
                     <Link
-                      href="#"
+                      href="clients"
                       className="text-[20px] leading-[100%] font-medium hover:text-[var(--primary-color)] text-[#fff]">
                       Clients
                     </Link>
@@ -62,7 +62,7 @@ export default function Header() {
  
                   <li className="ml-5">
                     <Link
-                      href="#"
+                      href="/contactUs"
                       className="inline-block text-[20px] font-medium transition-all duration-500 ease-in-out hover:bg-[var(--secondary-color)] rounded-[12px] bg-[var(--primary-color)] px-7 py-2 text-white"
                     >
                       Contact

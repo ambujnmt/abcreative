@@ -23,26 +23,26 @@ export default function Hero() {
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50"></div> 
         <div className="relative z-10 container mx-auto h-full px-4">
-          <div className="grid grid-cols-12 absolute text-left left-1/2 top-[55%] -translate-x-1/2 -translate-y-1/2 z-[2] w-full">
+          <div className="grid grid-cols-12 absolute text-left left-1/2 top-[55%] -translate-x-1/2 -translate-y-1/2 z-[2] w-full px-4">
             <div className="col-span-12 lg:col-span-7">
-              <h1 className="text-white text-[63.49px] font-semibold leading-[70px] mb-6">
+              <h1 className="text-white lg:text-[63.49px] text-[35px] font-semibold lg:leading-[70px] leading-[45px] mb-6">
                 3D Visualization forModern <span className="text-[var(--primary-color)]"> Businesses </span>
               </h1> 
-              <p className="text-white/90 text-lg md:text-xl mb-8">
+              <p className="text-white/90 text-lg md:text-xl mb-8 lg:block hidden">
                 Premium 3D animation, modeling, and rendering services for business-to-business clients.
               </p> 
               <div className="mt-10"></div>
-              <button className="bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">
+              <button className="bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%] mb-[10px] lg:mb-0">
                 Request a Free Consults
               </button> 
-              <button className="hover:bg-[var(--primary-color)] text-white ml-4 px-7 py-4 rounded-lg transition border border-white-200 text-[20px] font-medium leading-[100%]">
+              <button className="hover:bg-[var(--primary-color)] text-white lg:ml-4 ml-0 px-7 py-4 rounded-lg transition border border-white-200 text-[20px] font-medium leading-[100%]">
                 View Our Work
               </button> 
               <div className="mb-[50px]"></div>
             </div>
 
             {/* Hero Counter */}
-            <div className="col-span-7">
+            <div className="col-span-7 lg:block hidden">
               <div className="grid grid-cols-12">
                 <div className="col-span-4">
                   <h5 className="font-semibold text-[var(--primary-color)] text-[22px] leading-[100%] mb-2">10+</h5>
@@ -67,7 +67,7 @@ export default function Hero() {
 
 
       {/* Marquee Section */}
-      <section className='bg-black py-5'>
+      <section className='bg-black py-5 lg:block hidden'>
         <div className="container">
           <marquee>
             <ul className="flex items-center gap-10">

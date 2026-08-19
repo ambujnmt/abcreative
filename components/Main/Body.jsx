@@ -1,6 +1,6 @@
 import React from 'react' 
 import Hero from './HomeSections/Hero'; 
-import WhatWeDo from './HomeSections/WhatWeDo';
+import WhatWeDoSec from './HomeSections/WhatWeDoSec';
 import OurWork from './HomeSections/OurWork';
 import WorksFast from './HomeSections/WorksFast';
 import SimpleStep from './HomeSections/SimpleStep';
@@ -10,13 +10,14 @@ import HomeTestimonial from './HomeSections/HomeTestimonial';
 import HomeCta from './HomeSections/HomeCta';
 import HomeForm from './HomeSections/HomeForm';
 
+
 export default function Body() {
 
 
   return (
     <>
       <Hero />
-      <WhatWeDo />
+      <WhatWeDoSec />
       <OurWork /> 
       <WorksFast />
       <SimpleStep />

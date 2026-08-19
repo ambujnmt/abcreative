@@ -16,8 +16,8 @@ export default function OurWork() {
                             </div>
                         </div>
                         {/* == column 5 == */}
-                        <div className="col-span-5 group">
-                            <h3 className="font-semibold text-[55px] leading-[70px] text-white mb-[50px]">A Glimpse Of <br /> Our Projects</h3>
+                        <div className="lg:col-span-5 col-span-12 group">
+                            <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[70px] leading-[45px] text-white mb-[50px]">A Glimpse Of <br /> Our Projects</h3>
                             <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                 <img
                                     src="/assets/img/work-img1.png"
@@ -40,9 +40,9 @@ export default function OurWork() {
                         </div>
                         {/* == // column 5 == */}
                         {/* == column 7 == */}
-                        <div className="col-span-7 mt-[30px]">
+                        <div className="lg:col-span-7 col-span-12 mt-[30px]">
                             <div className="grid grid-cols-12 gap-6">
-                                <div className="col-span-6 group">
+                                <div className="lg:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img2.png"
@@ -63,7 +63,7 @@ export default function OurWork() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-span-6 group">
+                                <div className="lg:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img3.png"
@@ -84,7 +84,7 @@ export default function OurWork() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-span-6 group">
+                                <div className="lg:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img4.png"
@@ -105,7 +105,7 @@ export default function OurWork() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-span-6 group">
+                                <div className="lg:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img5.png"
