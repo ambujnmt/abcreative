@@ -10,12 +10,12 @@ export default function SimpleStep() {
                         <div className="col-span-12 flex justify-center mb-[50px]">
                             <div className="max-w-3xl text-center">
                                 <h6 className="block m-auto w-max text-[18px] leading-[100%] text-[var(--primary-color)] relative before:content-[''] before:absolute before:w-[40px] before:h-[4px] before:bg-[var(--primary-color)] before:top-[7px] before:left-[-50px] after:content-[''] after:absolute after:bg-[var(--primary-color)] after:w-[40px] after:h-[4px] after:top-[7px] after:right-[-50px] uppercase mb-4">What Happens Next</h6>
-                                <h3 className="font-semibold text-[55px] leading-[100%] text-[var(--text-color1)] mb-5">Simple Step, Solid Results</h3>
+                                <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[100%] leading-[45px] text-[var(--text-color1)] mb-5">Simple Step, Solid Results</h3>
                                 <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">We follow a provenprocess to understand your needs and deliver high- quality 3D viual solutions.</p>
                             </div>
                         </div>
 
-                        <div className="col-span-4">
+                        <div className="lg:col-span-4 col-span-12">
                             <div className="text-center">
                                 <img
                                     src="/assets/img/step1.png"
@@ -31,7 +31,7 @@ export default function SimpleStep() {
                                 <p className="text-[18px] text-[var(--text-color1)] font-normal leading-[25px]">We start by understanding your project goals, requirements, and expectations.</p>
                             </div>
                         </div>
-                        <div className="col-span-4">
+                        <div className="lg:col-span-4 col-span-12">
                             <div className="text-center">
                                 <img
                                     src="/assets/img/step2.png"
@@ -47,7 +47,7 @@ export default function SimpleStep() {
                                 <p className="text-[18px] text-[var(--text-color1)] font-normal leading-[25px]">We analyze, strategize, and create a clear plan tailored to your projects.</p>
                             </div>
                         </div>
-                        <div className="col-span-4">
+                        <div className="lg:col-span-4 col-span-12">
                             <div className="text-center">
                                 <img
                                     src="/assets/img/step3.png"

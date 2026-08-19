@@ -7,9 +7,9 @@ export default function WorksFast() {
             <section className="bg-[#FBFCFD] py-[70px]">
                 <div className="container">
                     <div className="grid grid-cols-12 gap-6">
-                        <div className="col-span-6">
+                        <div className="lg:col-span-6 col-span-12">
                             <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-5">Visuals that works fast</h6>
-                            <h3 className="font-semibold text-[55px] leading-[100%] text-[var(--text-color1)] mb-5">Your Project Deserves Stunning Visuals - <span className="text-[var(--primary-color)]"> Fast </span></h3>
+                            <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[100%] leading-[45px] text-[var(--text-color1)] mb-5">Your Project Deserves Stunning Visuals - <span className="text-[var(--primary-color)]"> Fast </span></h3>
                             <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">If the 3D visualization and 3D rendering of your project is less than optimal, it won’t grab the right people’s attention for the right reasons. To persuade your potential clients you need convincing project-specific 3D animation and visualization.</p>
 
                             <div className="flex items-center mt-[40px]">
@@ -50,14 +50,14 @@ export default function WorksFast() {
 
                             <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Free Consultation &nbsp; <FaArrowRightLong /></button>
                         </div>
-                        <div className="col-span-6">
+                        <div className="lg:col-span-6 col-span-12">
                             <div className="relative">
                                 <img
                                     src="/assets/img/work-fast-img.png"
                                     alt="image"
                                     className=""
                                 />
-                                <div className="w-[60%] shadow-[0px_5px_10px_rgba(0,0,0,0.15)] rounded-xl border-l-3 border-l-[var(--primary-color)] p-5 absolute bottom-[-80px] left-[40px] bg-white">
+                                <div className="lg:w-[60%] w-[80%] shadow-[0px_5px_10px_rgba(0,0,0,0.15)] rounded-xl border-l-3 border-l-[var(--primary-color)] p-5 lg:absolute relative lg:bottom-[-80px] bottom-[auto] lg:left-[40px] left-[20px] bg-white">
                                     <img
                                         src="/assets/img/quote-img.png"
                                         alt="image"
@@ -67,7 +67,7 @@ export default function WorksFast() {
                                 </div>
                             </div>
 
-                            <div className="mt-[140px] flex justify-between bg-[#F1F8FA] py-[15px] px-[12px] rounded-xl shadow-[0px_5px_10px_rgba(0,0,0,0.15)]">
+                            <div className="mt-[140px] lg:flex justify-between bg-[#F1F8FA] py-[15px] px-[12px] rounded-xl shadow-[0px_5px_10px_rgba(0,0,0,0.15)] hidden">
                                 <div className="flex items-center">
                                     <img
                                         src="/assets/img/project-icon1.png"

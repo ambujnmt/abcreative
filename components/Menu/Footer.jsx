@@ -120,23 +120,23 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/whatWeDo"
                   >
                     Our Work
                   </Link>
                 </li>
-                <li className="list-none leading-[138%]">
+                {/* <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
                     href="#"
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/contactUs"
                   >
                     Contact Us
                   </Link>
@@ -150,34 +150,34 @@ export default function Footer() {
                 Resources
               </h4> 
               <ul className="space-y-3">
-                <li className="list-none leading-[138%]">
+                {/* <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
                     href="#"
                   >
                     How it works
                   </Link>
-                </li> 
+                </li>  */}
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/faq"
                   >
                     FAQ
                   </Link>
                 </li>
-                <li className="list-none leading-[138%]">
+                {/* <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
                     href="#"
                   >
                     Case Studies
                   </Link>
-                </li>
+                </li> */}
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/privacyPolicy"
                   >
                     Privacy Policy
                   </Link>
@@ -185,7 +185,7 @@ export default function Footer() {
                 <li className="list-none leading-[138%]">
                   <Link
                     className="text-white font-normal hover:text-[var(--primary-color)] text-[18px]"
-                    href="#"
+                    href="/termsConditions"
                   >
                     Terms and Conditions
                   </Link>
