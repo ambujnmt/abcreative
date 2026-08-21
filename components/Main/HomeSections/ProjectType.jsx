@@ -53,9 +53,9 @@ export default function ProjectType() {
                     <div className="grid grid-cols-12 gap-6">
                         <div className="lg:col-span-4 col-span-12">
                             <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-5">Visuals that works fast</h6>
-                            <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[100%] leading-[45px] text-white mb-5">Some Project Types</h3>
+                            <h3 className="font-semibold lg:text-[55px] text-[23px] lg:leading-[100%] leading-[30px] text-white mb-5">Some Project Types</h3>
                             <p className="text-[20px] text-white font-normal leading-[25px]">We turn ideas into visual reality. explore the wide range of projects we design, visualize, and bring to life</p>
-                            <button className="mt-[25px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Explore All Projects Types &nbsp; <FaArrowRightLong /></button>
+                            <button className="mt-[25px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%]">Explore All Projects Types &nbsp; <FaArrowRightLong /></button>
                         </div>
 
                         {/* Here is slider column */}

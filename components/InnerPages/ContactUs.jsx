@@ -42,7 +42,7 @@ export default function ContactUs() {
                 <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-2 lg:gap-10">
                     {/* LEFT: Form */}
                     <div className="w-full">
-                        <h2 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">
+                        <h2 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">
                             Let&apos;s talk
                         </h2>
                         <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
@@ -97,7 +97,7 @@ export default function ContactUs() {
                                 />
                             </div>
                 
-                            <button type="submit" className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Send Message &nbsp; <FaArrowRightLong /></button>
+                            <button type="submit" className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%]">Send Message &nbsp; <FaArrowRightLong /></button>
                         </form>
                     </div>
             

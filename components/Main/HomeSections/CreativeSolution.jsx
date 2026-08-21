@@ -9,7 +9,7 @@ export default function CreativeSolution() {
                     <div className="grid grid-cols-12 lg:gap-11 gap-4">
                         <div className="lg:col-span-6 col-span-12">
                             <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-5">About ABCreative</h6>
-                            <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[100%] leading-[45px] text-white mb-5">Creative Solutions. Real <span class="text-[var(--primary-color)]"> Impact </span>.</h3>
+                            <h3 className="font-semibold lg:text-[55px] text-[23px] lg:leading-[100%] leading-[30px] text-white mb-5">Creative Solutions. Real <span class="text-[var(--primary-color)]"> Impact </span>.</h3>
                             <p className="text-[20px] text-white font-normal leading-[25px]">ABCreative Offers 3D animation and 3D visualization with personal service. with over 15 Years of experiece, we partnerwith clients woldwide to deliver stunning visuals that are on budget and on time.</p>
                             <div className="mt-[30px]"></div>
                             <div className="flex items-center p-[20px] rounded-xl border border-gray-700 mb-4">
@@ -43,7 +43,7 @@ export default function CreativeSolution() {
                                 alt="image"
                                 className="object-cover h-[100%] rounded-xl"
                             />
-                            <div className="lg:absolute relative lg:bottom-[30px] bottom-[0px] lg:left-[30px] left-[0px]">
+                            <div className="absolute lg:bottom-[30px] bottom-[0px] lg:left-[30px] left-[0px] lg:block hidden">
                                 <div className="">
                                     <div className="flex items-center p-[20px] rounded-xl bg-white w-[80%]">
                                         <img

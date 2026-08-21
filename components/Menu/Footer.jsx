@@ -11,9 +11,9 @@ export default function Footer() {
   return ( 
       <section className="bg-[var(--dark-bg)] pt-[80px]">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-12 gap-10">
+          <div className="grid grid-cols-12 lg:gap-10 gap-4">
             {/* Column 1 */}
-            <div className="col-span-5">
+            <div className="lg:col-span-5 md:col-span-6 col-span-12">
               <img
                 src="/assets/img/logo.png"
                 alt="image"
@@ -63,8 +63,8 @@ export default function Footer() {
             </div>
   
             {/* Services */}
-            <div className="col-span-2">
-              <h4 className="text-[20px] font-semibold text-white leading-[138%] mb-[30px] ">
+            <div className="lg:col-span-2 md:col-span-6 col-span-12 lg:mb-[0px] mb-[20px]">
+              <h4 className="text-[20px] font-semibold text-white leading-[138%] lg:mb-[30px] mb-[10px]">
                 Services
               </h4> 
               <ul className="space-y-3">
@@ -104,8 +104,8 @@ export default function Footer() {
             </div>
   
             {/* Company */}
-            <div className="col-span-2">
-              <h4 className="text-[20px] font-semibold text-white leading-[138%] mb-[30px] ">
+            <div className="lg:col-span-2 md:col-span-6 col-span-12 lg:mb-[0px] mb-[20px]">
+              <h4 className="text-[20px] font-semibold text-white leading-[138%] lg:mb-[30px] mb-[10px]">
                 Company
               </h4> 
               <ul className="space-y-3">
@@ -145,8 +145,8 @@ export default function Footer() {
             </div>
   
             {/* Resources */}
-            <div className="col-span-3">
-              <h4 className="text-[20px] font-semibold text-white leading-[138%] mb-[30px] ">
+            <div className="lg:col-span-3 md:col-span-6 col-span-12 lg:mb-[0px] mb-[20px]">
+              <h4 className="text-[20px] font-semibold text-white leading-[138%] lg:mb-[30px] mb-[10px]">
                 Resources
               </h4> 
               <ul className="space-y-3">
@@ -196,7 +196,7 @@ export default function Footer() {
         </div>
  
         {/* Copyright */}
-        <div className="mt-[160px] border-t border-[#8b8b8b]/40 py-[18px]">
+        <div className="lg:mt-[160px] mt-[50px] border-t border-[#8b8b8b]/40 py-[18px]">
           <div className="container mx-auto px-4">
             <div className="flex justify-center items-center gap-4">
               <h5 className="flex text-white font-extralight items-center text-[17px] mb-0">

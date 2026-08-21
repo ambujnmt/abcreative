@@ -48,9 +48,9 @@ export default function Company() {
                 <section className="bg-[#FBFCFD] py-[70px]">
                     <div className="container">
                         <div className="grid grid-cols-12 gap-6 items-center">
-                            <div className="col-span-6">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-5">3D Visualization Studio</h6>
-                                <h3 className="font-semibold text-[55px] leading-[100%] text-[var(--text-color1)] mb-5">About <span className="text-[var(--primary-color)]"> ABCreative </span></h3>
+                                <h3 className="font-semibold lg:text-[55px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">About <span className="text-[var(--primary-color)]"> ABCreative </span></h3>
                                 <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">We supply business clients with 3D content they use for marketing and project development.</p>
 
                                 <div className="mt-[30px] flex justify-between bg-[#F1F8FA] py-[15px] px-[12px] rounded-xl shadow-[0px_5px_10px_rgba(0,0,0,0.15)]">
@@ -74,9 +74,9 @@ export default function Company() {
                                     </div>
                                 </div>
   
-                                <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Request a Free Consult &nbsp; <FaArrowRightLong /></button>
+                                <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%]">Request a Free Consult &nbsp; <FaArrowRightLong /></button>
                             </div>
-                            <div className="col-span-6">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="relative">
                                     <img
                                         src="/assets/img/about-img.jpg"
@@ -101,7 +101,7 @@ export default function Company() {
                 <section className="py-20">
                     <div className="container grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-start">
                         <div>
-                            <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">
                                 You need 3D marketing material?
                             </h3>
                             <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
@@ -181,7 +181,7 @@ export default function Company() {
                 {/* Section 3 */}
                 <section className="bg-slate-50">
                     <div className="container text-center">
-                        <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">ABCreative is the ideal 3D Partner</h3>
+                        <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">ABCreative is the ideal 3D Partner</h3>
                         <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
                             A small, senior team that treats every project like it's our own.
                         </p>
@@ -302,7 +302,7 @@ export default function Company() {
                 <section className="">
                     <div className="container">
                         <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
-                            <h3 class="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">Some project cases</h3>
+                            <h3 class="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">Some project cases</h3>
                             <p className="max-w-sm text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">
                                 A snapshot of the industries and clients we&apos;ve brought into 3D.
                             </p>
@@ -463,7 +463,7 @@ export default function Company() {
                     <div className="container">
                         <div className="grid grid-cols-12 gap-4">
                             <div className="col-span-12">
-                                <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">Some project types</h3>
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">Some project types</h3>
                             </div>
                             <div className="lg:col-span-4 col-span-12">
                                 <div className="rounded-2xl border border-slate-100 p-5 shadow-sm bg-indigo-50 h-full">
@@ -636,7 +636,7 @@ export default function Company() {
                 <section className="bg-[var(--dark-bg)] px-4 py-20">
                     <div className="container">
                         <div className="text-left">
-                            <h2 className="font-semibold text-[40px] leading-[100%] text-white sm:text-4xl">
+                            <h2 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-white sm:text-4xl">
                                 Project workflow
                             </h2>
                             <p className="mx-auto mt-4 text-[16px] text-slate-300 font-normal leading-[25px]">
@@ -723,7 +723,7 @@ export default function Company() {
                 {/* section 8 */}
                 <section className="py-20">
                     <div className="container">
-                        <h2 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">
+                        <h2 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">
                             Project deliverables
                         </h2>
                         <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
@@ -844,7 +844,7 @@ export default function Company() {
                 {/* section 10 */}
                 <section className="container pb-20 pt-4 mt-10">
                     <div className="rounded-3xl bg-[var(--primary-color)] py-14 text-center shadow-2xl">
-                        <h2 className="mt-4 font-semibold text-[40px] leading-[100%] text-white sm:text-4xl">
+                        <h2 className="mt-4 font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-white sm:text-4xl">
                             With Renderix, you&apos;re safe in our hands
                         </h2>
                         <p className="mx-auto mt-3 max-w-xl text-[16px] text-white font-normal leading-[25px]">

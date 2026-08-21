@@ -49,7 +49,7 @@ export default function Visualization() {
                             <div className="flex items-center gap-4">
                                 <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-3">Visualization</h6>
                             </div>
-                            <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> What is 3D visualization? </h3> 
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> What is 3D visualization? </h3> 
 
                             <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-10 gap-y-5 text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
                                 <p>
@@ -70,7 +70,7 @@ export default function Visualization() {
 
                             {/* case studies */}
                             <div className="mt-16">
-                                <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> Other case studies: </h3>  
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> Other case studies: </h3>  
 
                                 <div className="grid grid-cols-1 sm:grid-cols-1 gap-3">
                                     <Link href="#" className="group flex items-center gap-3 text-[var(--primary-color)]">
@@ -98,7 +98,7 @@ export default function Visualization() {
                                         className="w-full h-auto mb-[30px] rounded-xl"
                                     />
                                 </div>
-                                <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> Purpose of 3D visualization </h3>  
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> Purpose of 3D visualization </h3>  
                                 <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">In general, 3D visualization has a variety of applications. ABCreative’s clients ask us to produce 3D visuals to give a realistic representation of an object, space, or concept to aid communication, planning, and design. End uses include {" "}
                                     <Link href="#" className="text-[var(--primary-color)] underline">
                                         3D renders,
@@ -135,7 +135,7 @@ export default function Visualization() {
                                         className="w-full h-auto mb-[30px] rounded-xl"
                                     />
                                 </div>
-                                <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> Benefits of 3D Visualization </h3>  
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> Benefits of 3D Visualization </h3>  
                                 <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
                                     <Link href="#" className="text-[var(--primary-color)] underline">
                                         3D visualization
@@ -193,7 +193,7 @@ export default function Visualization() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-20">
 
                         <div className="lg:col-span-4"> 
-                            <h3 className="font-semibold text-[40px] leading-[100%] mb-5 text-[var(--text-color1)]"> Workflow </h3>
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] mb-5 text-[var(--text-color1)]"> Workflow </h3>
 
                             <div className="hidden lg:block mt-8 w-24 h-1 bg-[#35b3c3]"></div>
                         </div>
@@ -303,7 +303,7 @@ export default function Visualization() {
                         </div>
                         <div className="col-span-12 lg:col-span-7">
                             <div className="">
-                                <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> Deliverables </h3>  
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> Deliverables </h3>  
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                     <p className="text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
@@ -362,7 +362,7 @@ export default function Visualization() {
                 <section className="bg-[#eef7f8] py-14">
                     <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
                         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-10">
-                            <h3 className="font-semibold text-[40px] leading-[100%] mb-5 text-[var(--text-color1)]">Your Visualization May Need </h3>
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] mb-5 text-[var(--text-color1)]">Your Visualization May Need </h3>
                         </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

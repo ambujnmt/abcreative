@@ -41,13 +41,13 @@ export default function Clients() {
                         <section className="pb-[30px]">
                             <div className="container">
                                 <div className="grid grid-cols-12 gap-6 items-center">
-                                    <div className="col-span-6"> 
-                                        <h3 className="font-semibold text-[55px] leading-[100%] text-[var(--text-color1)] mb-5"><span className="text-[var(--primary-color)]">ABCreative</span> recent cases </h3>
+                                    <div className="lg:col-span-6 md:col-span-6 col-span-12"> 
+                                        <h3 className="font-semibold lg:text-[55px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"><span className="text-[var(--primary-color)]">ABCreative</span> recent cases </h3>
                                         <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]"><span className="text-[var(--primary-color)]">20 years</span> of delivering 3D product visualization and rendering services. We know how to delight our European and global business clients. Get inspired about how we can help you with the cases below!</p>
         
-                                        <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Request a Free Consult &nbsp; <FaArrowRightLong /></button>
+                                        <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%]">Request a Free Consult &nbsp; <FaArrowRightLong /></button>
                                     </div>
-                                    <div className="col-span-6">
+                                    <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                         <div className="relative">
                                             <img
                                                 src="/assets/img/visu-img7.jpg"
@@ -66,7 +66,7 @@ export default function Clients() {
                     <section className="container mt-[70px]">
                         <div className="grid grid-cols-12 gap-6">
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -95,7 +95,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -124,7 +124,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -153,7 +153,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -182,7 +182,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -211,7 +211,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -240,7 +240,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -269,7 +269,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -298,7 +298,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -327,7 +327,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -356,7 +356,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -385,7 +385,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -414,7 +414,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">
@@ -443,7 +443,7 @@ export default function Clients() {
                             </div>
                             {/*  */}
                             {/*  */}
-                            <div className="lg:col-span-6 col-span-12">
+                            <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                 <div className="grid grid-cols-12 gap-6 items-stretch rounded-2xl border border-slate-100 p-2 shadow-sm bg-indigo-50    ">
                                     <div className="lg:col-span-5 col-span-12">
                                         <div className="h-full">

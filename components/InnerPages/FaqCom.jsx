@@ -11,7 +11,7 @@ export default function FaqCom() {
             <section className="bg-slate-50">
                     <div className="container">
                         <div className="flex flex-col items-center"> 
-                            <h2 className="mt-6 font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-10">
+                            <h2 className="mt-6 font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-10">
                                 Here’s some answers to our most common questions
                             </h2>
                         </div>

@@ -46,13 +46,13 @@ export default function WhatWeDo() {
                     <section className="pb-[30px]">
                         <div className="container">
                             <div className="grid grid-cols-12 gap-6 items-center">
-                                <div className="col-span-6"> 
-                                    <h3 className="font-semibold text-[55px] leading-[100%] text-[var(--text-color1)] mb-5">Our creative 3D visualization service helps explain complicated projects, goods or services. </h3>
+                                <div className="lg:col-span-6 md:col-span-6 col-span-12"> 
+                                    <h3 className="font-semibold lg:text-[55px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">Our creative 3D visualization service helps explain complicated projects, goods or services. </h3>
                                     <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">We have <span className="text-[var(--primary-color)]"> 20 years experience </span> producing 3D visualization for our returning local & international customers.</p>
     
-                                    <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Request a Free Consult &nbsp; <FaArrowRightLong /></button>
+                                    <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%]">Request a Free Consult &nbsp; <FaArrowRightLong /></button>
                                 </div>
-                                <div className="col-span-6">
+                                <div className="lg:col-span-6 md:col-span-6 col-span-12">
                                     <div className="relative">
                                         <img
                                             src="/assets/img/visu-img5.webp"
@@ -74,7 +74,7 @@ export default function WhatWeDo() {
 
                     {/* Section 3 */}
                     <section> 
-                        <h2 className="mx-auto text-center font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5">
+                        <h2 className="mx-auto text-center font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">
                             How our visualizations add value <span className="lg:block"> to your current project.</span>
                         </h2> 
                 
@@ -131,7 +131,7 @@ export default function WhatWeDo() {
                     {/* Section 5 */}
                     <section className="container pb-20 pt-4 mt-10">
                         <div className="rounded-3xl bg-[var(--primary-color)] py-14 text-center shadow-2xl">
-                            <h2 className="mt-4 font-semibold text-[40px] leading-[100%] text-white sm:text-4xl">
+                            <h2 className="mt-4 font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-white sm:text-4xl">
                                 Your project deserves optimal presentation. <span className="lg:block"> Let us do that for you!</span>
                             </h2>
                             <p className="mx-auto mt-3 max-w-xl text-[16px] text-white font-normal leading-[25px]">

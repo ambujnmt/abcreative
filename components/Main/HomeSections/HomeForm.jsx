@@ -7,15 +7,15 @@ export default function HomeForm() {
         <section className="py-[50px] bg-cover bg-center relative before:content-[''] before:absolute before:bg-[var(--primary-color)] before:opacity-85 before:w-full before:h-auto before:top-0 before:inset-0" style={{ backgroundImage: "url('/assets/img/form-bg-img.png')" }}>
             <div className="container">
                 <div className="relative">   
-                    <div className="relative grid grid-cols-12 gap-10">
+                    <div className="relative grid grid-cols-12 lg:gap-10 gap-4">
                         {/* Left Side */}
-                        <div className="col-span-5">
+                        <div className="lg:col-span-5 col-span-12">
                             <div className="flex flex-col justify-center text-white">
                                 <h6 className="flex items-center gap-3 text-[18px] uppercase tracking-wide font-medium mb-4">
                                     Get In Touch
                                     <span className="w-8 h-[2px] bg-white/60 inline-block"></span>
                                 </h6>
-                                <h2 className="text-[55px] md:text-[44px] font-semibold leading-[100%] mb-5">
+                                <h2 className="lg:text-[55px] text-[35px] md:text-[44px] font-semibold lg:leading-[100%] leading-[45px] mb-5">
                                     Send Us Email
                                 </h2>
                                 <p className="text-[20px] leading-[25px] font-normal text-white/90 mb-10 max-w-md">
@@ -64,7 +64,7 @@ export default function HomeForm() {
                         </div>
 
                         {/* Right Side - Form Card */}
-                        <div className="col-span-7">
+                        <div className="lg:col-span-7 col-span-12">
                             <div className="bg-white/15 backdrop-blur-sm border border-white/30 rounded-2xl p-6 md:p-8">
                                 <form className="flex flex-col gap-5">
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
