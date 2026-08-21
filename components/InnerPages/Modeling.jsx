@@ -48,7 +48,7 @@ export default function Modeling() {
                             <div className="flex items-center gap-4">
                                 <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-3">Modeling</h6>
                             </div>
-                            <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> Modeling in Our Projects </h3> 
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> Modeling in Our Projects </h3> 
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-5 text-[16px] text-[var(--text-color1)] font-normal leading-[25px]">
                                 <p>
@@ -102,7 +102,7 @@ export default function Modeling() {
 
                             {/* Recent Clients */}
                             <div className="mt-16">
-                                <h3 className="font-semibold text-[40px] leading-[100%] text-[var(--text-color1)] mb-5"> Recent clients </h3>  
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5"> Recent clients </h3>  
 
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                     <Link href="#" className="group flex items-center gap-3 text-[var(--primary-color)]">
@@ -175,7 +175,7 @@ export default function Modeling() {
                                     01
                                 </span>
 
-                                <h3 className="font-semibold text-[40px] leading-[100%] mb-5">
+                                <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] mb-5">
                                     Why Modeling?
                                 </h3>
                             </div>
@@ -221,7 +221,7 @@ export default function Modeling() {
                             <span className="text-[#35aeba] text-sm font-bold uppercase tracking-[0.2em]">
                                 02
                             </span>
-                            <h3 className="font-semibold text-[40px] leading-[100%] mb-5 text-[var(--text-color1)]"> Workflow </h3>
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] mb-5 text-[var(--text-color1)]"> Workflow </h3>
 
                             <div className="hidden lg:block mt-8 w-24 h-1 bg-[#35b3c3]"></div>
                         </div>
@@ -323,7 +323,7 @@ export default function Modeling() {
                 <section className="bg-[#eef7f8] py-14">
                     <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
                         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-10">
-                            <h3 className="font-semibold text-[40px] leading-[100%] mb-5 text-[var(--text-color1)]"> Your Modeling May Need </h3>
+                            <h3 className="font-semibold lg:text-[40px] text-[23px] lg:leading-[100%] leading-[30px] mb-5 text-[var(--text-color1)]"> Your Modeling May Need </h3>
                         </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

@@ -42,7 +42,7 @@ export default function OurWork() {
                         {/* == column 7 == */}
                         <div className="lg:col-span-7 col-span-12 mt-[30px]">
                             <div className="grid grid-cols-12 gap-6">
-                                <div className="lg:col-span-6 col-span-12 group">
+                                <div className="lg:col-span-6 md:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img2.png"
@@ -63,7 +63,7 @@ export default function OurWork() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-6 col-span-12 group">
+                                <div className="lg:col-span-6 md:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img3.png"
@@ -84,7 +84,7 @@ export default function OurWork() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-6 col-span-12 group">
+                                <div className="lg:col-span-6 md:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img4.png"
@@ -105,7 +105,7 @@ export default function OurWork() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="lg:col-span-6 col-span-12 group">
+                                <div className="lg:col-span-6 md:col-span-6 col-span-12 group">
                                     <div className="relative overflow-hidden after:content-[''] after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/90 after:via-black/0 after:to-transparent">
                                         <img
                                             src="/assets/img/work-img5.png"

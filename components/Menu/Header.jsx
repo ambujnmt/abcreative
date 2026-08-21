@@ -90,20 +90,16 @@ export default function Header() {
         <div className="xl:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <ul className="space-y-4">
-              <li><Link href="#">About</Link></li>
-              <li><Link href="#">Courses</Link></li>
-              <li><Link href="#">Faculty</Link></li>
-              <li><Link href="#">Programs</Link></li>
-              <li><Link href="#">Membership</Link></li>
-              <li><Link href="#">Events</Link></li>
-              <li><Link href="#">Contact</Link></li>
- 
+              <li><Link className="text-[var(--primary-color)]" href="/">Home</Link></li>
+              <li><Link className="text-[var(--primary-color)]" href="/company">Company</Link></li>
+              <li><Link className="text-[var(--primary-color)]" href="/whatWeDo">What we do</Link></li>
+              <li><Link className="text-[var(--primary-color)]" href="/clients">Clients</Link></li>
               <li>
                 <Link
-                  href="#"
-                  className="inline-block text-[15px] rounded-full bg-[#c8a96a] px-6 py-3 text-white font-semibold"
+                  href="/contactUs"
+                  className="inline-block text-[15px] rounded-full bg-[var(--primary-color)] px-6 py-3 text-white font-semibold"
                 >
-                  Apply Now
+                  Contact
                 </Link>
               </li>
             </ul>

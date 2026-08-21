@@ -9,7 +9,7 @@ export default function WorksFast() {
                     <div className="grid grid-cols-12 gap-6">
                         <div className="lg:col-span-6 col-span-12">
                             <h6 className="uppercase font-medium text-[18px] leading-[100%] text-[var(--primary-color)] w-max relative after:content-[''] after:absolute after:w-[30px] after:h-[2px] after:bg-[var(--primary-color)] after:right-[-40px] after:top-[8px] mb-5">Visuals that works fast</h6>
-                            <h3 className="font-semibold lg:text-[55px] text-[35px] lg:leading-[100%] leading-[45px] text-[var(--text-color1)] mb-5">Your Project Deserves Stunning Visuals - <span className="text-[var(--primary-color)]"> Fast </span></h3>
+                            <h3 className="font-semibold lg:text-[55px] text-[23px] lg:leading-[100%] leading-[30px] text-[var(--text-color1)] mb-5">Your Project Deserves Stunning Visuals - <span className="text-[var(--primary-color)]"> Fast </span></h3>
                             <p className="text-[20px] text-[var(--text-color2)] font-normal leading-[25px]">If the 3D visualization and 3D rendering of your project is less than optimal, it won’t grab the right people’s attention for the right reasons. To persuade your potential clients you need convincing project-specific 3D animation and visualization.</p>
 
                             <div className="flex items-center mt-[40px]">
@@ -48,7 +48,7 @@ export default function WorksFast() {
                                 </div>
                             </div>
 
-                            <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%]">Free Consultation &nbsp; <FaArrowRightLong /></button>
+                            <button className="mt-[40px] flex items-center bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%]">Free Consultation &nbsp; <FaArrowRightLong /></button>
                         </div>
                         <div className="lg:col-span-6 col-span-12">
                             <div className="relative">

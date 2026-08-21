@@ -26,16 +26,16 @@ export default function Hero() {
           <div className="grid grid-cols-12 absolute text-left left-1/2 top-[55%] -translate-x-1/2 -translate-y-1/2 z-[2] w-full px-4">
             <div className="col-span-12 lg:col-span-7">
               <h1 className="text-white lg:text-[63.49px] text-[35px] font-semibold lg:leading-[70px] leading-[45px] mb-6">
-                3D Visualization forModern <span className="text-[var(--primary-color)]"> Businesses </span>
+                3D Visualization for Modern <span className="text-[var(--primary-color)]"> Businesses </span>
               </h1> 
-              <p className="text-white/90 text-lg md:text-xl mb-8 lg:block hidden">
+              <p className="text-white/90 text-lg md:text-xl mb-8 md:block hidden">
                 Premium 3D animation, modeling, and rendering services for business-to-business clients.
               </p> 
               <div className="mt-10"></div>
-              <button className="bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] text-[20px] font-medium leading-[100%] mb-[10px] lg:mb-0">
+              <button className="bg-[var(--primary-color)] hover:bg-black text-white px-7 py-4 rounded-lg transition border border-[var(--primary-color)] lg:text-[20px] text-[18px] font-medium leading-[100%] mb-[10px] lg:mb-0">
                 Request a Free Consults
               </button> 
-              <button className="hover:bg-[var(--primary-color)] text-white lg:ml-4 ml-0 px-7 py-4 rounded-lg transition border border-white-200 text-[20px] font-medium leading-[100%]">
+              <button className="hover:bg-[var(--primary-color)] text-white md:ml-4 ml-0 px-7 py-4 rounded-lg transition border border-white-200 lg:text-[20px] text-[18px] font-medium leading-[100%]">
                 View Our Work
               </button> 
               <div className="mb-[50px]"></div>
